@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Validate
+%define		pdir	CGI
+%define		pnam	Validate
 Summary:	CGI::Validate - advanced CGI form parser and type validation
 Summary(pl):	CGI::Validate - zaawansowany analizator formularzy CGI z walidacj± typów
 Name:		perl-CGI-Validate
