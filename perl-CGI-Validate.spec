@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	Validate
-Summary:	CGI-Validate perl module
-Summary(pl):	Modu³ perla CGI-Validate
+Summary:	CGI::Validate perl module
+Summary(pl):	Modu³ perla CGI::Validate
 Name:		perl-CGI-Validate
 Version:	2.000
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI-Validate - Advanced CGI form parser and type validation.
+CGI::Validate - Advanced CGI form parser and type validation.
 
 %description -l pl
-CGI-Validate - zaawansowany parser CGI.
+CGI::Validate - zaawansowany parser CGI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
