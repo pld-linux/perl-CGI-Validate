@@ -9,7 +9,7 @@ Summary:	CGI::Validate - advanced CGI form parser and type validation
 Summary(pl):	CGI::Validate - zaawansowany analizator formularzy CGI z walidacj± typów
 Name:		perl-CGI-Validate
 Version:	2.000
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
