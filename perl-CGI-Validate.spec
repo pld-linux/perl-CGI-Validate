@@ -3,7 +3,7 @@ Summary:	CGI-Validate perl module
 Summary(pl):	Modu³ perla CGI-Validate
 Name:		perl-CGI-Validate
 Version:	2.000
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
