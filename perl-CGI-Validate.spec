@@ -1,12 +1,11 @@
-%define	pdir	CGI
-%define	pnam	Validate
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	CGI
+%define		pnam	Validate
 Summary:	CGI-Validate perl module
 Summary(pl):	Modu³ perla CGI-Validate
 Name:		perl-CGI-Validate
 Version:	2.000
 Release:	8
-
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ CGI-Validate - Advanced CGI form parser and type validation.
 CGI-Validate - zaawansowany parser CGI.
 
 %prep
-%setup -q -n CGI-Validate-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
