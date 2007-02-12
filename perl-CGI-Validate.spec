@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Validate
 Summary:	CGI::Validate - advanced CGI form parser and type validation
-Summary(pl):	CGI::Validate - zaawansowany analizator formularzy CGI z walidacj± typów
+Summary(pl.UTF-8):   CGI::Validate - zaawansowany analizator formularzy CGI z walidacjÄ… typÃ³w
 Name:		perl-CGI-Validate
 Version:	2.000
 Release:	10
@@ -25,10 +25,10 @@ CGI::Validate Perl module is an advanced CGI form parser and type
 validator.  The basic concept of this module is to combine the best
 features of the CGI and Getopt::Long modules.
 
-%description -l pl
-Modu³ Perla CGI::Validate jest zaawansowany analizatorem formularzy
-CGI z walidacj± typów. Podstawow± ide± tego modu³u jest po³±czenie
-najlepszych cech modu³ów CGI i Getopt::Long.
+%description -l pl.UTF-8
+ModuÅ‚ Perla CGI::Validate jest zaawansowany analizatorem formularzy
+CGI z walidacjÄ… typÃ³w. PodstawowÄ… ideÄ… tego moduÅ‚u jest poÅ‚Ä…czenie
+najlepszych cech moduÅ‚Ã³w CGI i Getopt::Long.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
