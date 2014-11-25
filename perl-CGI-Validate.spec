@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	Validate
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Validate - advanced CGI form parser and type validation
 Summary(pl.UTF-8):	CGI::Validate - zaawansowany analizator formularzy CGI z walidacją typów
 Name:		perl-CGI-Validate
@@ -15,14 +15,15 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d1a11020856521d3c498dc0c1628abdf
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/CGI-Validate/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CGI::Validate Perl module is an advanced CGI form parser and type
-validator.  The basic concept of this module is to combine the best
+validator. The basic concept of this module is to combine the best
 features of the CGI and Getopt::Long modules.
 
 %description -l pl.UTF-8
