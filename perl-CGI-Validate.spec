@@ -4,7 +4,6 @@
 
 %define		pdir	CGI
 %define		pnam	Validate
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Validate - advanced CGI form parser and type validation
 Summary(pl.UTF-8):	CGI::Validate - zaawansowany analizator formularzy CGI z walidacją typów
 Name:		perl-CGI-Validate
